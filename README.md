@@ -6,13 +6,19 @@ I only active alert and perf data on UPS Battery temperature, Output load, Syste
 
 -------------------------------------------------
 Options:
+
 -h, --help show this help message and exit
+
 -H HOST, --host=HOST hostname or IP address
+
 -c COMMUNITY SNMP community
+
 -t TYPE, --type=TYPE BATTERY VOLTAGE, BATTERY CURRENT, BATTERY STATUS,
 SYSTEM STATUS, INPUT, OUTPUT
+
 -m MODULE, --module=MODULE
 module to check
+
 -a RANGE, --range=RANGE
 normal range, when something out of scope alert will
 be raised. Ex: -a 0,80
